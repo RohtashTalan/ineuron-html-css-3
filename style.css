@@ -1,0 +1,125 @@
+html{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    padding: 0;
+    background-color: #2d260e;
+    color: #c9c9c9;
+}
+
+.container{
+    /* padding: 1rem; */
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list{
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.list-item{
+    margin-left: 3rem;
+}
+.list-item:first-of-type{
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.list-item:hover{
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.button-small{
+    background: transparent;
+    padding: 0.6rem 2rem;
+    font-size: 20px;
+    color: #A77B06;
+    border-radius: 6px;
+    border:1px solid #A77B06;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.content-left{
+    width: 65%;
+    font-size: 6.1rem;
+}
+
+.content-right{
+    box-sizing: border-box;
+    width: 440px;
+    padding: 35px;
+    font-size: 20px;
+}
+
+section.bg-image{
+    background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 25rem 0;
+}
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-left {
+    padding: 3.5rem;
+    background-color: #4d4b44;
+    position: relative;
+}
+
+.icon-left::after {
+    content: '\003E';
+    display: block;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(117, 117, 117);
+    background-color: transparent;
+    border: 1px solid rgb(150, 150, 150);
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.icon-right {
+    padding: 3.5rem;
+    border: 1px solid #a08f36;
+    background-color: #a08f36;
+    position: relative;
+}
+
+.icon-right::after {
+    content: '\003E';
+    display: block;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
