@@ -1,4 +1,4 @@
-# Project-2 HTML & CSS Full Stack Javascript Web Development Course
+# Project-3 HTML & CSS Full Stack Javascript Web Development Course
 
 ![image](https://img.shields.io/badge/iNeuron-Full--Stack%20JavaScript%20Web%20Development%20Course-blue)
 ![image](https://img.shields.io/badge/Hitesh%20Choudhry-LOC-brightgreen)
